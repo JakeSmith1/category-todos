@@ -37,7 +37,5 @@ jspm_packages
 .node_repl_history
 
 # node modules
-
 node_modules
-
-.txt
+variables.txt
