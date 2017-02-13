@@ -1,0 +1,27 @@
+{
+  "name": "category-todos",
+  "version": "1.0.0",
+  "description": "create todos by category",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakeSmith1/category-todos.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "vanillaJS",
+    "semantic-UI",
+    "mongoDB",
+    "mongoose"
+  ],
+  "author": "Jake Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JakeSmith1/category-todos/issues"
+  },
+  "homepage": "https://github.com/JakeSmith1/category-todos#readme"
+}
