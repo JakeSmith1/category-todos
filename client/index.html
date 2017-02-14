@@ -29,13 +29,13 @@
     <h1 class="ui header">Create Some Todos</h1>
     <p>Fill out the form below to get started</p>
     <div class="todo-form">
-      <div class="ui form">
-        <div class="ui equal width form">
+      <form class="ui form">
+        <div class="ui equal width">
 
           <div class="fields">
             <div class="field">
               <label>Title</label>
-              <input type="text" placeholder="title..." required>
+              <input type="text" name="title" placeholder="title..." required>
             </div>
             <div class="field">
               <label>Start</label>
@@ -92,8 +92,8 @@
             </div>
           </div>
         </div>
-
-      </div><!-- ui form -->
+        <input class="ui primary submit button" type="submit">Submit</div>
+      </form><!-- ui form -->
     </div><!-- todo-form -->
   </div>
 
