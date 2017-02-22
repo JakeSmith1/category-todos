@@ -4,7 +4,8 @@
   "description": "create todos by category",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +24,13 @@
   "bugs": {
     "url": "https://github.com/JakeSmith1/category-todos/issues"
   },
-  "homepage": "https://github.com/JakeSmith1/category-todos#readme"
+  "homepage": "https://github.com/JakeSmith1/category-todos#readme",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "cors": "^2.8.1",
+    "express": "^4.14.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.8.4",
+    "morgan": "^1.8.1"
+  }
 }
