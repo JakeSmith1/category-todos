@@ -1,14 +1,11 @@
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
-var options = ['yellow', 'green', 'blue', 'red'];
-
 var CategorySchema = new Schema({
-  name: {
+  category: {
     type: String,
     required: true,
-    unique: true,
-    enum: options
+    unique: true
   }
 });
 
