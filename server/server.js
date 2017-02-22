@@ -6,7 +6,7 @@ var err = require('./middleware/err');
 
 // db.url is different depending on NODE_ENV
 require('mongoose').connect(config.db.url)
-  .then(function(){logger.log('connected to:' config.db.url)});
+  .then(function(){logger.log('connected to:' + config.db.url)});
 
 // setup the app middlware
 require('./middleware/appMiddlware')(app);
