@@ -6,6 +6,10 @@ router.route('/')
   .get(function(req, res){
     logger.log('Hey from categories!!');
     res.send({ok: true});
+  })
+  .post(function(req,res){
+    logger.log('post to categories');
+    res.send({ok:true})
   });
 
 module.exports = router;
