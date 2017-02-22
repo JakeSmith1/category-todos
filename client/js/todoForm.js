@@ -3,14 +3,14 @@ window.TodoForm = (function($) {
     $form;
 
   function init() {
-    forEach(document.querySelectorAll('input[name$=-date]'), function(input){input.value = new Date().toDateInputValue();})
+    forEach(document.querySelectorAll('input[type=date]'), function(input){input.value = new Date().toDateInputValue();})
 
     $form = $('.ui .form');
 
     $form.submit(function(e){
       e.preventDefault();
       var todo = JSON.stringify($form.form('get values'));
-      var url = 'http://localhost:3004/api/categories/';
+      var url = 'http://localhost:3004/api/todos/';
       /*---------------- add check on values ---------------*/
       $.ajax({
         url: url,

@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  console.log('ready');
   //this is bad
   Date.prototype.toDateInputValue = (function() {
     var local = new Date(this);
